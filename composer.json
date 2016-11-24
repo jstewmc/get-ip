@@ -1,0 +1,23 @@
+{
+	"name": "jstewmc/get-ip", 
+	"description": "Get user's IP address",
+	"license": "MIT",
+	"keywords": ["php", "jstewmc", "ip", "address"],
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs0@gmail.com"	
+		}
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\GetIp\\": "src/"
+		}
+	}
+}
